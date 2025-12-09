@@ -1,4 +1,5 @@
 .container {
+  padding-top: 100px;
   display: grid;
   grid-template-rows: auto auto; /* top row + bottom row */
   gap: 10px; /* spacing between rows */

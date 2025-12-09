@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import Login from "../login/Login.jsx";
 import styles from "./Header.module.css";
 
 const Header = ({ headers }) => {
@@ -16,6 +17,7 @@ const Header = ({ headers }) => {
           </NavLink>
         ))}
         </nav>
+        <Login login={()=>{alert("you are logged in")}}/>
     </div>
   );
 };
